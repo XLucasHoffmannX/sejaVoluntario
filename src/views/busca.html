@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Seja Voluntário</title>
+</head>
+<body>
+    <main class="container">
+        <header class="header">
+            <a href="/">
+                <img src="./assets/img/logo.png" alt="Logo Seja Voluntário">
+                <h1 class="text-red text-shadow">Seja Voluntário</h1>
+            </a>
+        </header>
+        <section class="notices row">
+            <div class="form form-search">
+                <h2 class="text-blue">Busque uma vaga de voluntáriado</h2>
+                <form class="flex" onsubmit="return validateSearch(this)">
+                    <input type="search" name="key" class="col-half" placeholder="Entre com o que deseja buscar..." value="{{key}}">
+                    <button type="submit" class="btn btn-blue">Buscar</button>
+                </form>
+            </div>
+
+            <div class="grid grid-col-3">
+                {{#if vagas}}
+                    {{#each vagas}}
+                    <article class="notice">
+                        <h4>{{this.title}}</h4>
+                        <p class="city"><strong>{{this.country}}</strong></p>
+                        <p>{{this.description}}</p>
+                        <p>
+                            <a class="btn btn-red" href="/ad/{{this.id}}">Saiba mais</a>
+                        </p>
+                    </article>
+                    {{/each}}
+                {{else}}
+                    <p>Nenhuma vaga encontrada !</p>
+                {{/if}}
+            </div>
+        </section>
+        <footer class="footer">
+            <p>
+                <strong>Seja Voluntário</strong> - feito com amor na de cidade São Mateus do Sul
+            </p>
+        </footer>
+    </main>
+    <script src="./assets/js/forms.js"></script>
+</body>
+</html>

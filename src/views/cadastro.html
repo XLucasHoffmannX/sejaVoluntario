@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Seja Voluntário</title>
+</head>
+<body>
+    <main class="container">
+        <header class="header">
+            <a href="/">
+                <img src="./assets/img/logo.png" alt="Logo Seja Voluntário">
+                <h1 class="text-red text-shadow">Seja Voluntário</h1>
+            </a>
+        </header>
+        <section class="form row">
+           <h2 class="text-green">Cadastre sua vaga de voluntariado</h2>
+           <form class="flex" onsubmit="return validateNotice(this)" method="POST" action="/register">
+               <input type="text" name="email" class="col-full" placeholder="Informe o e-mail do responsável...">
+
+               <textarea name="description" placeholder="Informe a descrição da vaga..." rows="4"></textarea>
+
+               <div class="form-row">
+                    <input type="text" name="title" class="col-half" placeholder="Informe o titulo da vaga...">
+
+                    <input type="text" name="country" class="col-half" placeholder="Informe a cidade...">
+               </div>
+
+               <div class="text-right">
+                   <button type="submit" class="btn btn-green">Enviar Anúncio</button>
+               </div>
+           </form> 
+        </section>
+        <footer class="footer">
+            <p>
+                <strong>Seja Voluntário</strong> - feito com amor na de cidade São Mateus do Sul
+            </p>
+        </footer>
+    </main>
+    <script src="./assets/js/forms.js"></script>
+</body>
+</html>

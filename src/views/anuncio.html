@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <title>Seja Voluntário</title>
+</head>
+
+<body>
+    <main class="container">
+        <header class="header">
+            <a href="/">
+                <img src="/assets/img/logo.png" alt="Logo Seja Voluntário">
+                <h1 class="text-red text-shadow">Seja Voluntário</h1>
+            </a>
+        </header>
+        <section class="notice row">
+            <h2 class="text-red">{{vaga.title}}</h4>
+            <p class="city"><strong>{{vaga.country}}</strong></p>
+            <p>{{vaga.description}}</p>
+            <p>
+                <a class="btn btn-red" href="mailto:{{vaga.email}}">Enviar e-mail</a>
+            </p>
+        </section>
+        <footer class="footer">
+            <p>
+                <strong>Seja Voluntário</strong> - feito com amor na de cidade São Mateus do Sul
+            </p>
+        </footer>
+    </main>
+</body>
+
+</html>
