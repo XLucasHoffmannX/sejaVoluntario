@@ -19,6 +19,8 @@
 <p align="center">
   <img src="./public/assets/shots/phone-1.png" width=400 title="Login">
 </p>
+
+
 ## Features
 - ✅ **Buscar por vagas**
 - ✅ **Anunciar vagas**
