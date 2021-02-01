@@ -7,7 +7,7 @@
 <p align="center">Anúncio de vagas de voluntariado e registro de vagas para voluntarios!</p>
 </br>
 </br>
-<p align="center">Seja Voluntario por CodeDev</p>
+<p align="center">Seja Voluntario por Hoffmann</p>
 </br>
 <h2>Responsive Layout</h2>
 <p align="center">
@@ -33,4 +33,5 @@
 - **At the terminal start `npm start`** or `npm run dev`
 
 ## Video Link
+- Código escrito por CodeDev, neste repositótio encontra-se a aplicação sem o framework vue.js e com modificações minhas.
 👉 https://www.youtube.com/watch?v=J9-QnSD865c&list=PLhW5jRUibMHW82w3FUgVuX94ENOjcLShW&index=1
