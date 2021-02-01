@@ -1,6 +1,6 @@
 <h1 align="center">
 </br>
-  <img src="./assets/img/logo.png" width="250">
+  <img src="./public/assets/img/logo.png" width="250">
 </br>
 </br>
 </h1>
@@ -10,8 +10,8 @@
 <p align="center">Seja Voluntario por CodeDev</p>
 
 <p align="center">
-  <img src="/docs/home.png" width=400 title="Login">
-  <img src="/docs/sorteio.png" width=400 title="Login">
+  <img src="./public/assets/shots/pc-1.png" width=400 title="Login">
+  <img src="./public/assets/shots/pc-2.png" width=400 title="Login">
 </p>
 ## Features
 - ✅ **Buscar por vagas**
