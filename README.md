@@ -11,14 +11,13 @@
 </br>
 <h2>Responsive Layout</h2>
 <p align="center">
-  <img src="./public/assets/shots/pc-1.png" width=400 title="Login">
-  <img src="./public/assets/shots/pc-2.png" width=400 title="Login">
+  <img src="./public/assets/shots/pc-1.png" width=450 title="Login">
+  <img src="./public/assets/shots/pc-2.png" width=450 title="Login">
 </p>
 </br>
 <h2>Mobile</h2>
 <p align="center">
   <img src="./public/assets/shots/phone-1.png" width=400 title="Login">
-  <img src="./public/assets/shots/phone-2.png" width=400 title="Login">
 </p>
 ## Features
 - ✅ **Buscar por vagas**
